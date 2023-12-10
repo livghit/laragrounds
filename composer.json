@@ -1,17 +1,24 @@
 {
-    "name": "livghit/laragrounds",
-    "description": "Composer Package featuring exquisitely crafted background snippets by @ibelick.",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Livghit\\Laragrounds\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "livghit",
-            "email": "liviu.g01@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "livghit/laragrounds",
+  "description": "Composer Package featuring exquisitely crafted background snippets by @ibelick.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Laragrounds\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "livghit",
+      "email": "liviu.g01@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Laragrounds\\LaragroundsServiceProvider"
+      ]
+    }
+  }
 }
