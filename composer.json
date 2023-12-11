@@ -21,12 +21,13 @@
   "require": {
     "php": "^8.1"
   },
-  "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [
         "Laragrounds\\LaragroundsServiceProvider"
       ]
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
   }
 }
