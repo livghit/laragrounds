@@ -2,7 +2,10 @@
 
 namespace Laragrounds;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Laragrounds\View\Components\Backgrounds\DottedDark;
+use Laragrounds\View\Components\Backgrounds\DottedLight;
 
 class LaragroundsServiceProvider extends ServiceProvider
 {
@@ -14,7 +17,10 @@ class LaragroundsServiceProvider extends ServiceProvider
     | */
     public function boot()
     {
+        //register components here
+        $this->registerLaragroundsComponents();
     }
+
 
     /**
     | * extends functionality from other classes
@@ -24,5 +30,11 @@ class LaragroundsServiceProvider extends ServiceProvider
     | */
     public function register()
     {
+    }
+
+    public function registerLaragroundsComponents()
+    {
+        Blade::component('dotted-light', DottedLight::class);
+        Blade::component('dotted-dark', DottedDark::class);
     }
 }
