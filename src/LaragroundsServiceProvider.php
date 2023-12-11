@@ -4,6 +4,7 @@ namespace Laragrounds;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Laragrounds\View\Components\Backgrounds\BigGridColored;
 use Laragrounds\View\Components\Backgrounds\DottedDark;
 use Laragrounds\View\Components\Backgrounds\DottedLight;
 use Laragrounds\View\Components\Backgrounds\GridSimpleDark;
@@ -40,5 +41,6 @@ class LaragroundsServiceProvider extends ServiceProvider
         Blade::component('dotted-dark', DottedDark::class);
         Blade::component('grid-simple-light', GridSimpleLight::class);
         Blade::component('grid-simple-dark', GridSimpleDark::class);
+        Blade::component('big-grid-colored', BigGridColored::class);
     }
 }
