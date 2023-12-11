@@ -21,8 +21,7 @@
   "require": {
     "php": "^8.1"
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
+  "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [
