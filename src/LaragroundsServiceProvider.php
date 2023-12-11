@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Laragrounds\View\Components\Backgrounds\DottedDark;
 use Laragrounds\View\Components\Backgrounds\DottedLight;
+use Laragrounds\View\Components\Backgrounds\GridSimpleDark;
+use Laragrounds\View\Components\Backgrounds\GridSimpleLight;
 
 class LaragroundsServiceProvider extends ServiceProvider
 {
@@ -36,5 +38,7 @@ class LaragroundsServiceProvider extends ServiceProvider
     {
         Blade::component('dotted-light', DottedLight::class);
         Blade::component('dotted-dark', DottedDark::class);
+        Blade::component('grid-simple-light', GridSimpleLight::class);
+        Blade::component('grid-simple-dark', GridSimpleDark::class);
     }
 }
