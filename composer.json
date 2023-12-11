@@ -6,7 +6,7 @@
   "keywords": [
     "laravel-backgrounds"
   ],
-  "version": "3.0.0",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "Laragrounds\\": "src/"
@@ -26,8 +26,8 @@
       "providers": [
         "Laragrounds\\LaragroundsServiceProvider"
       ]
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
-  }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
