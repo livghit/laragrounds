@@ -4,11 +4,15 @@ namespace Laragrounds;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Laragrounds\View\Components\Backgrounds\BigGrid;
 use Laragrounds\View\Components\Backgrounds\BigGridColored;
 use Laragrounds\View\Components\Backgrounds\DottedDark;
 use Laragrounds\View\Components\Backgrounds\DottedLight;
+use Laragrounds\View\Components\Backgrounds\GridBlackWhite;
 use Laragrounds\View\Components\Backgrounds\GridSimpleDark;
 use Laragrounds\View\Components\Backgrounds\GridSimpleLight;
+use Laragrounds\View\Components\Backgrounds\HalfGrid;
+use Laragrounds\View\Components\Backgrounds\SideColor;
 
 class LaragroundsServiceProvider extends ServiceProvider
 {
@@ -42,5 +46,9 @@ class LaragroundsServiceProvider extends ServiceProvider
         Blade::component('grid-simple-light', GridSimpleLight::class);
         Blade::component('grid-simple-dark', GridSimpleDark::class);
         Blade::component('big-grid-colored', BigGridColored::class);
+        Blade::component('big-grid', BigGrid::class);
+        Blade::component('grid-black-white', GridBlackWhite::class);
+        Blade::component('side-color', SideColor::class);
+        Blade::component('half-grid', HalfGrid::class);
     }
 }

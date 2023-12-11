@@ -9,7 +9,7 @@ use Illuminate\Contracts\View\View as View;
 class BigGridColored extends Component
 {
     public function __construct(
-        public ?string $color = "#d5c5ff",
+        public ?string $color = "#d5c5ff,",
     ) {
     }
     public function render(): Closure|View|string
