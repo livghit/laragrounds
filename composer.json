@@ -4,7 +4,7 @@
   "type": "library",
   "license": "MIT",
   "keywords": [
-    "laravel-backgroudns"
+    "laravel-backgrounds"
   ],
   "version": "1.0.0",
   "autoload": {
@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "php": ">=8.1"
+    "php": "^8.1"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
