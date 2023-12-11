@@ -2,6 +2,7 @@
   "name": "livghit/laragrounds",
   "description": "Composer Package featuring exquisitely crafted background snippets by @ibelick.",
   "type": "library",
+  "license": "MIT",
   "version": "1.0.0",
   "autoload": {
     "psr-4": {
