@@ -2,14 +2,14 @@
 
 ## Instalation
 
-`composer:
+```composer
 composer require livghit\laragrounds
-`
+```
 
-`php
+```php
 //add this to the Service Providers
 LaragroundsServiceProvider::class;
-`
+```
 
 After those steps you are ready to use the backgrounds :
 
