@@ -1,3 +1,5 @@
+<img src="https://github.com/ibelick/background-snippets/blob/main/public/cover.webp" alt="logo"/>
+
 # Composer Package for the https://bg.ibelick.com/ backgrounds.
 
 ## Instalation
