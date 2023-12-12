@@ -36,6 +36,7 @@ After those steps you are ready to use the backgrounds :
 <x-grid-simple-light />
 <x-grid-simple-dark />
 <x-big-grid-colored color="red"/>
+<x-big-grid-colored color="rgba(234,44,222,0.4)" />
 <x-big-grid />
 <x-grid-black-white />
 <x-side-color />
