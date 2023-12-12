@@ -35,7 +35,7 @@ After those steps you are ready to use the backgrounds :
 <x-dotted-dark />
 <x-grid-simple-light />
 <x-grid-simple-dark />
-<x-big-grid-colored />
+<x-big-grid-colored color="red"/>
 <x-big-grid />
 <x-grid-black-white />
 <x-side-color />
