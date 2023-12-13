@@ -18,10 +18,8 @@ After those steps you are ready to use the backgrounds :
 ```php
 <main>
   //this sets the bg
-  <x-/>
   <x-dotted-dark/>
   <x-grid/>
-  <x-/>
   //below this just add you're code
   <div>HELOOO</div>
 </main>
