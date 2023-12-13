@@ -4,7 +4,9 @@
   "type": "library",
   "license": "MIT",
   "keywords": [
-    "laravel-backgrounds"
+    "laravel-backgrounds",
+    "laravel",
+    "backgrounds"
   ],
   "autoload": {
     "psr-4": {
