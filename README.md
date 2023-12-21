@@ -11,6 +11,13 @@ composer require livghit\laragrounds
 ```php
 //add this to the Service Providers
 LaragroundsServiceProvider::class;
+
+//also add this to the tailwind.config.js under require
+"./vendor/livghit/laragrounds/src/Views/Components/**/*.php",
+```
+
+```php
+
 ```
 
 After those steps you are ready to use the backgrounds :
